@@ -1,1 +1,11 @@
-Traces Binaries
+# Traces Binaries
+
+Release binaries and release artifacts for the Traces CLI.
+
+## Source of truth
+
+- CLI source code: `market-dot-dev/traces`
+- Homebrew formula: `market-dot-dev/homebrew-tap`
+- Release binaries and generated `traces.rb` snapshots: GitHub Releases in this repo
+
+The `main` branch of this repo is not the source of truth for the Homebrew formula. The release pipeline publishes the generated formula to `market-dot-dev/homebrew-tap` and also uploads a release-specific `traces.rb` asset to each release in this repo.
